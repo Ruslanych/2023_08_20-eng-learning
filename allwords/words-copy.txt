@@ -1,0 +1,16 @@
+domestic@домашний / локальный@0@
+facilities@удобства@0@
+to rent@арендовать@0@
+rented@арендованный@0@
+rental@сдаваемый в аренду@0@
+resort@курорт@0@
+connecting flight@перелёт с пересадками@0@
+direct flight@перелёт без пересадок@0@
+hardly beneficial@почти никогда не выгодно@0@
+beneficial@выгодно@0@
+mild climate@мягкий климат@0@
+mineral springs@минеральные источники@0@
+recreational / leisure@развлекательный@0@
+On the one/other hand@С одной/другой стороны@0@
+time consuming@длительный по времени@0@
+affordable@доступный@0@

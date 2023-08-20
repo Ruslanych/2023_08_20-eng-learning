@@ -1,0 +1,386 @@
+.main {
+    width: 800px;
+    height: 280px;
+    /* background-color: rgb(200,200,200); */
+    
+    margin: 0px auto 0px auto;
+}
+
+.main-wordinput {
+    width: calc(100% - 10px - 20px);
+    height: calc(100% - 90px - 10px - 20px);
+    background-color: rgb(150,150,150);
+    
+    border: dashed 5px black;
+    padding: 10px;
+}
+
+.main-wordinput-eng {
+    width: 100%;
+    height: 40px;
+    border: solid 3px black;
+    border-radius: 4px;
+    background-color: rgb(255, 145, 145);
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.main-wordinput-eng-text {
+    width: 200px;
+    height: 100%;
+
+    /* display: block; */
+    /* padding: 5px 0px 5px 0px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+    display:inline-block;
+}
+
+.main-wordinput-eng-input {
+    width: calc(100% - 200px - 6px);
+    height: 100%;
+
+    /* display: block; */
+    /* padding: 5px 0px 5px 0px; */
+
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 20px; */
+    /* font-weight: 400; */
+
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 30px; */
+
+    display:inline-block;
+}
+
+.main-wordinput-eng-input > input {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px - 4px);
+
+    margin: 2px 0px 2px 0px;
+    border: solid 3px rgb(120, 120, 31);
+    border-radius: 10px;
+    padding: 2px;
+    outline: none;
+
+    background-color: rgb(255, 255, 150);
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.main-wordinput-breakline {
+    width: 100%;
+    height: 10px;
+}
+
+.main-wordinput-transl {
+    width: 100%;
+    height: 40px;
+    border: solid 3px black;
+    border-radius: 4px;
+    background-color: rgb(255, 145, 248);
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.main-wordinput-transl-text {
+    width: 200px;
+    height: 100%;
+
+    /* display: block; */
+    /* padding: 5px 0px 5px 0px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+    display:inline-block;
+}
+
+.main-wordinput-transl-input {
+    width: calc(100% - 200px - 6px);
+    height: 100%;
+
+    /* display: block; */
+    /* padding: 5px 0px 5px 0px; */
+
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 20px; */
+    /* font-weight: 400; */
+
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 30px; */
+
+    display:inline-block;
+}
+
+.main-wordinput-transl-input > input {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px - 4px);
+
+    margin: 2px 0px 2px 0px;
+    border: solid 3px rgb(120, 120, 31);
+    border-radius: 10px;
+    padding: 2px;
+    outline: none;
+
+    background-color: rgb(255, 255, 150);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.main-wordinput-lower {
+    width: 100%;
+    height: 40px;
+}
+
+.main-wordinput-lower-submit {
+    width: calc(200px + 10px);
+    height: 100%;
+    border: solid 3px black;
+    border-radius: 4px;
+    /* background-color: rgb(255, 145, 248); */
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-wordinput-lower-submit > input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(145, 154, 255);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+
+    border: 0px;
+    border-radius:1px;
+    outline:none;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+/* .main-wordinput-lower-submit > input:hover { 
+     background-color: rgb(104, 111, 184); 
+     color: rgb(0, 24, 239); 
+} */
+
+.main-wordinput-lower-submit > input:hover {
+    background-color: rgb(104, 111, 184);
+    color: white;
+}
+.main-wordinput-lower-submit > input:focus {
+    background-color: rgb(104, 111, 184);
+    color: white;
+}
+
+.main-wordinput-lower-submit > input:active {
+    background-color: rgb(104, 111, 184);
+    color: black;
+}
+
+.main-wordinput-lower-console {
+    width: calc(100% - 210px - 15px - 1px);
+    height: 100%;
+    border: solid 3px black;
+    border-radius: 4px;
+    /* background-color: rgb(255, 145, 248); */
+
+    display: inline-block;
+
+    vertical-align: middle;
+    /* line-height: 40px; */
+}
+
+.main-wordinput-lower-console-bg {
+    width: 0px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.main-wordinput-lower-console-bg > p {
+    margin: auto 0 auto 4px;
+    line-height: 40px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(114, 114, 114)
+}
+
+.main-wordinput-lower-console-text {
+    width: calc(100% - 100px - 4px);
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-wordinput-lower-console-text > p {
+    margin: auto 0 auto 4px;
+    line-height: 40px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .main-wordinput-transl-text {
+    width: 200px;
+    height: 100%;
+
+    /* display: block; */
+    /* padding: 5px 0px 5px 0px; *
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+    display:inline-block;
+} */
+
+.main-breakline {
+    width: 100%;
+    height: 20px;
+}
+
+.main-nextpage {
+    width: calc(100% - 30px);
+    height: calc(90px - 20px);
+    background-color: rgb(103, 234, 236);
+
+    border: solid 5px rgb(45, 105, 106);
+    padding: 10px;
+}
+
+.main-nextpage-checker {
+    width: calc(450px + 10px);
+    height: 60px;
+    border: solid 3px black;
+    border-radius: 4px;
+    /* background-color: rgb(255, 145, 248); */
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.main-nextpage-checker > a > button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(145, 154, 255);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+
+    border: 0px;
+    border-radius:1px;
+    outline:none;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+/* .main-nextpage-checker > button:hover { */
+    /* background-color: rgb(104, 111, 184); */
+    /* color: rgb(0, 24, 239); */
+/* } */
+
+.main-nextpage-checker > a > button:hover {
+    background-color: rgb(104, 111, 184);
+    color: white;
+}
+.main-nextpage-checker > a > button:focus {
+    background-color: rgb(104, 111, 184);
+    color: white;
+}
+
+.main-nextpage-checker > a > button:active {
+    background-color: rgb(104, 111, 184);
+    color: black;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+
+.main-links {
+    width: calc(100% - 20px);
+    /* height: calc(100% - 250px - 20px - 20px); */
+    height: auto;
+    background-color: rgb(255, 216, 216);
+
+    padding: 10px;
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+.main-links > a {   
+    text-decoration: none;
+}
+
+.main-links > a > div {
+    width: calc(100% - 8px);
+    height: calc(60px - 10px - 8px);
+
+    border: solid 4px black;
+    border-radius: 3px;
+    margin: 5px 0 5px 0;
+
+    background-color: rgb(255, 120, 190);
+
+    vertical-align: middle;
+    text-align: center;
+    line-height: calc(60px - 10px - 8px);
+}
+
+.main-links > a > div > p {
+    margin: auto 0 auto 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    
+    color: black;
+}
+
+.main-links > a > div:hover {
+    background-color: rgb(154, 82, 176);
+}
+
+.main-links > a > div:active {
+    background-color: rgb(154, 82, 176);
+    color: white;
+}
